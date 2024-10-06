@@ -13,11 +13,11 @@ const UserDetail = () => {
   }, [id]);
 
   return user ? (
-    <div>
-      <h2>{user.name}</h2>
-      <p>Email: {user.email}</p>
-      <p>Phone: {user.phone}</p>
-      <p>Website: {user.website}</p>
+    <div className='container-md py-3'>
+      <h2 className='fw-bold mt-3'style={{ color: '#001F3F' }}>{user.name}</h2>
+      <p><span className='fw-bold' style={{ color: '#C96868' }}>Email:</span> {user.email}</p>
+      <p><span className='fw-bold' style={{ color: '#C96868' }}>Phone:</span> {user.phone}</p>
+      <p><span className='fw-bold' style={{ color: '#C96868' }}>Website:</span> {user.website}</p>
     </div>
   ) : <p>Loading...</p>;
 };

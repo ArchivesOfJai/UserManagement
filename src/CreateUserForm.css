@@ -1,0 +1,17 @@
+.new-user-form{
+    display: flex;
+}
+
+.new-user-form input{
+    width: 20%;
+    padding: 0 2px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .new-user-form input{   
+        width: 100%;
+    }
+    
+}
