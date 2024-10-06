@@ -7,7 +7,7 @@ A simple user management system built with React, using the Vite development ser
 1. Clone the repository: `git clone https://github.com/your-username/user-management-system.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm run dev`
-4. Open your web browser and navigate to `http://localhost:3000`
+
 
 ## Features
 
